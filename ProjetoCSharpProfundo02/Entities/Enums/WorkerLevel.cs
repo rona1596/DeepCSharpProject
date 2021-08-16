@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ProjetoCSharpProfundo02.Entities.Enums
+﻿namespace ProjetoCSharpProfundo02.Entities.Enums
 {
     public enum WorkerLevel : int
     {

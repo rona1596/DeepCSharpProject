@@ -1,7 +1,6 @@
 ﻿using ProjetoCSharpProfundo02.Entities.Enums;
-using System;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace ProjetoCSharpProfundo02.Entities
 {
@@ -11,6 +10,7 @@ namespace ProjetoCSharpProfundo02.Entities
         public WorkerLevel Level { get; set; }
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
+        //List of HourContracts
         public List<HourContract> Contracts { get; private set; } = new List<HourContract>();
 
         public Worker()
